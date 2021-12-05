@@ -10,7 +10,6 @@ import home_page_6 from "../public/images/home/home_page_6.webp";
 import home_page_7 from "../public/images/home/home_page_7.webp";
 import home_page_8 from "../public/images/home/home_page_8.webp";
 import home_page_9 from "../public/images/home/home_page_9.webp";
-import home_page_10 from "../public/images/home/home_page_10.jpeg";
 
 export default function Home() {
   console.log(styles);
@@ -47,8 +46,7 @@ export default function Home() {
         <p className={styles.general_info_paragraph}>
           Art, wine, crypto, equipment finance, P2P lending and so many more -
           there are more alternative assets than stocks listed on the NYSE.
-          There are funds for stocks, now there's one for alternative
-          investments.
+          There are funds for stocks, now there one for alternative investments.
         </p>
       </section>
       <section className={styles.asset_listings}>
