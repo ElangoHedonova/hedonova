@@ -1,0 +1,110 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+
+.header {
+  background-color: $primary_background_color;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &_title {
+    font-size: 7.5rem;
+    width: 50%;
+    text-align: center;
+    color: $primary_text_color;
+    font-weight: 100;
+    @include respond(tab-port) {
+      width: 90%;
+    }
+  }
+}
+.button_container {
+  display: flex;
+  margin-top: $margin-top-5;
+}
+.start_investing {
+  margin-left: 2rem;
+}
+
+.general_info {
+  height: 100vh;
+  background-color: $primary_background_color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &_heading {
+    font-size: $h2-size;
+    width: 50%;
+    color: $primary_text_color;
+    text-align: center;
+    font-weight: 100;
+  }
+  &_paragraph {
+    font-size: 2rem;
+    width: 50%;
+    color: $primary_text_color;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 3rem;
+    line-height: 3.5rem;
+  }
+}
+// asset listing
+.asset {
+  &_listings {
+  }
+  &_listing {
+    overflow: hidden;
+    height: 100vh;
+    &_type_one {
+      display: flex;
+    }
+    &_type_two {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    &_left {
+      flex: 1;
+    }
+    &_right {
+      flex: 1;
+      background-color: #1c1818;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      & .secondary_heading {
+        font-size: $h2-size;
+        color: $primary_text_color;
+        font-weight: 100;
+        width: 70%;
+        text-align: center;
+      }
+      & .paragraph {
+        font-size: 2rem;
+        color: $primary_text_color;
+        font-size: 2.4rem;
+        font-weight: 100;
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
+.footer {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  & p {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+  }
+}
