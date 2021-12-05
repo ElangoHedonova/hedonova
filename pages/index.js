@@ -135,7 +135,7 @@ export default function Home() {
             <h2 className={`${styles.secondary_heading}`}>
               Open to US and international investors
             </h2>
-            <h4 className={`${styles.paragraph}`}>Explore the portfolio</h4>
+            <p className={`${styles.paragraph}`}>Explore the portfolio</p>
           </div>
         </div>
         <div
@@ -164,7 +164,7 @@ export default function Home() {
             <h2 className={`${styles.secondary_heading}`}>
               Open to US and international investors
             </h2>
-            <h4 className={`${styles.paragraph}`}>Explore the portfolio</h4>
+            <p className={`${styles.paragraph}`}>Explore the portfolio</p>
           </div>
         </div>
         <div
@@ -193,7 +193,7 @@ export default function Home() {
             <h2 className={`${styles.secondary_heading}`}>
               Open to US and international investors
             </h2>
-            <h4 className={`${styles.paragraph}`}>Explore the portfolio</h4>
+            <p className={`${styles.paragraph}`}>Explore the portfolio</p>
           </div>
         </div>
         <div
@@ -222,7 +222,7 @@ export default function Home() {
             <h2 className={`${styles.secondary_heading}`}>
               Open to US and international investors
             </h2>
-            <h4 className={`${styles.paragraph}`}>Explore the portfolio</h4>
+            <p className={`${styles.paragraph}`}>Explore the portfolio</p>
           </div>
         </div>
         <div
@@ -251,7 +251,7 @@ export default function Home() {
             <h2 className={`${styles.secondary_heading}`}>
               Open to US and international investors
             </h2>
-            <h4 className={`${styles.paragraph}`}>Explore the portfolio</h4>
+            <p className={`${styles.paragraph}`}>Explore the portfolio</p>
           </div>
         </div>
         <div
@@ -280,7 +280,7 @@ export default function Home() {
             <h2 className={`${styles.secondary_heading}`}>
               Open to US and international investors
             </h2>
-            <h4 className={`${styles.paragraph}`}>Explore the portfolio</h4>
+            <p className={`${styles.paragraph}`}>Explore the portfolio</p>
           </div>
         </div>
         <div
@@ -309,7 +309,7 @@ export default function Home() {
             <h2 className={`${styles.secondary_heading}`}>
               Open to US and international investors
             </h2>
-            <h4 className={`${styles.paragraph}`}>Explore the portfolio</h4>
+            <p className={`${styles.paragraph}`}>Explore the portfolio</p>
           </div>
         </div>
       </section>
