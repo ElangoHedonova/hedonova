@@ -35,6 +35,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  @include respond(tab-port) {
+    height: 70vh;
+  }
 
   &_heading {
     font-size: $h2-size;
@@ -42,6 +45,9 @@
     color: $primary_text_color;
     text-align: center;
     font-weight: 100;
+    @include respond(tab-port) {
+      width: 90%;
+    }
   }
   &_paragraph {
     font-size: 2rem;
@@ -51,6 +57,9 @@
     font-weight: 100;
     margin-top: 3rem;
     line-height: 3.5rem;
+    @include respond(tab-port) {
+      width: 90%;
+    }
   }
 }
 // asset listing
@@ -62,10 +71,16 @@
     height: 100vh;
     &_type_one {
       display: flex;
+      @include respond(phone) {
+        flex-direction: column;
+      }
     }
     &_type_two {
       display: flex;
       flex-direction: row-reverse;
+      @include respond(phone) {
+        flex-direction: column;
+      }
     }
     &_left {
       flex: 1;
